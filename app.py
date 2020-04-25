@@ -7,6 +7,6 @@ application.register_blueprint(index_blueprint)
 application.register_blueprint(name_blueprint)
 
 if __name__ == "__main__":
-  application.run()
+  application.run(host="0.0.0.0")
 
 
